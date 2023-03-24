@@ -1,0 +1,13 @@
+.navbar {
+  background-color: black;
+  width: 100%;
+  top: 0;
+  height: 8vmin;
+}
+
+.nav-link {
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: white;
+}
