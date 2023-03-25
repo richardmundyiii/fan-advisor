@@ -1,0 +1,19 @@
+.auth-page {
+  display: flex;
+  flex-direction: column;
+  height: 50vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.auth-component img {
+  height: 30vmin;
+}
+
+main .img {
+  height: 10vmin;
+}
+
+.auth-logo {
+  padding: 10px;
+}

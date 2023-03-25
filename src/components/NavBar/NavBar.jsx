@@ -11,14 +11,14 @@ export default function NavBar({ user, setUser }) {
   return (
     <>
       <nav className="navbar">
-        <Link className="nav-link" to="/orders">
-          Order History
+        <Link className="nav-link" to="/">
+          My Profile
         </Link>
         &nbsp; | &nbsp;
-        <Link className="nav-link" to="/orders/new">
-          New Order
+        <Link className="nav-link" to="/stadiums">
+          Stadiums
         </Link>
-        &nbsp;&nbsp;
+        &nbsp; | &nbsp;
         {user && <span>Welcome, {user.name}</span>}
         &nbsp;&nbsp;
         <button>

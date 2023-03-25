@@ -1,0 +1,12 @@
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: black;
+  color: rgb(231, 230, 230);
+  padding: 1vmin;
+  position: fixed;
+  bottom: 0vmin;
+  width: 100vw;
+}
