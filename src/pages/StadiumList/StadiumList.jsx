@@ -1,3 +1,11 @@
+import StadiumListCard from "../../components/StadiumListCard/StadiumListCard";
+
 export default function StadiumList() {
-  return <h1>Stadium List</h1>;
+  return (
+    <>
+      <div className="stadium-cards-container">
+        <StadiumListCard />
+      </div>
+    </>
+  );
 }
